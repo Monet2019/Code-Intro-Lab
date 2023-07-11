@@ -97,7 +97,7 @@ console.log = (faveSnack)
 */
 
 // CODE HERE
-
+let faveDrink = "Cream Soda"
 
 
 

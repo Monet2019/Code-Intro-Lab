@@ -79,8 +79,8 @@ console.log (speed)
 
 // CODE HERE
 
-var faveSnack = "Oreos"
-console.log = (faveSnack)
+let faveSnack = "oreo"
+console.log(faveSnack)
 
 
 
@@ -97,7 +97,8 @@ console.log = (faveSnack)
 */
 
 // CODE HERE
-let faveDrink = "Cream Soda"
+let faveDrink = "cream Soda"
+console.log(faveDrink)
 
 
 
@@ -118,7 +119,7 @@ let faveDrink = "Cream Soda"
 
 // CODE HERE
 
-
+const private = true
 
 
 
@@ -150,6 +151,11 @@ let faveDrink = "Cream Soda"
 
 // CODE HERE
 
+let netflix = 15;
+let hulu = 7;
+let disney = 5;
+let youtubePremium = 10;
+let peacock = 10;
 
 
 
@@ -168,7 +174,8 @@ let faveDrink = "Cream Soda"
 
 // CODE HERE
 
-
+let total = netflix + hulu + disney + youtubePremium + peacock
+console.log (total)
 
 
 
@@ -192,7 +199,9 @@ let faveDrink = "Cream Soda"
 
 // CODE HERE
 
-
+hulu = 0
+peacock = 5
+netflix = 8
 
 
 
@@ -210,7 +219,8 @@ let faveDrink = "Cream Soda"
 
 // CODE HERE
 
-
+let newTotal = hulu + netflix + peacock + disney + youtubePremium
+console.log (newTotal)
 
 
 ///// PROBLEM 9: Bonus Section /////
@@ -224,8 +234,8 @@ let faveDrink = "Cream Soda"
     and compare the numbers.
 */
 
-// console.log('Total: ', total)
-// console.log('New Total: ', newTotal)
+console.log('Total: ', total)
+console.log('New Total: ', newTotal)
 
 /*
     What is happening here? When we run a file 
@@ -265,7 +275,8 @@ let faveDrink = "Cream Soda"
 */
 
 // CODE HERE
-
+let savings = (total % newTotal)/total*100
+console.log( 'Savings:' , savings) 
 
 
 
